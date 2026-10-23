@@ -1,0 +1,16 @@
+#simple calculator 
+def calc():
+  a=int(input("enter 1st value: "))
+  b=int(input("enter 1st value: "))
+  op=input("enter operator: ")
+  if(op=="+"):
+    print("the sum of", a, "and", b, "is", a+b)
+  elif(op=="-"):
+    print("the difference of", a, "and", b, "is", a-b)
+  elif(op=="*"):
+    print("the product of", a, "and", b, "is", a*b)
+  elif(op=="/"):
+    print("the quotient of", a, "and", b, "is", a/b)
+  else:
+    print("invalid operator")
+calc()
